@@ -41,7 +41,8 @@ print(lista_invertida)
 
 # 9. Crie uma cópia profunda da lista.*
 original = [1, 2, 3, 4, 5]
-original.copy()
+copia = original[:]
+print(copia)
 print(original)
 
 # 10. Dada a lista:*

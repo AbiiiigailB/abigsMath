@@ -24,5 +24,5 @@ def identificar_tipo_dado(valor):
 
     #exibir dados do seu tipo
 for chave, valor in produto.items():
-    tipo = identificar_tipo_de_dado(valor)
+    tipo = (valor)
     print(f"{chave}: {valor}-> {tipo}")
