@@ -11,7 +11,7 @@ print(conjunto)
 lista.append("item lista")
 tupla = ("item tupla")
 
-conjunto = {"Ana", "Abgail", "Ines"}
+conjunto = {"Ana", "Abigail", "Ines"}
 print(conjunto)
 # print(conjunto[0])
 
@@ -36,7 +36,7 @@ print()
 for indice, item in enumerate(conjunto):
   print(indice, item)
 
-conjuntoA = {"Abgail", "Ines", "Geovanna"}
+conjuntoA = {"Abigail", "Ines", "Geovanna"}
 conjuntoB = {"Geovane", "Patricio", "Ines"}
 
 diferenca = conjuntoA.difference(conjuntoB)
